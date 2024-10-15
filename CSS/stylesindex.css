@@ -1,0 +1,1017 @@
+
+html{
+background-color: black;
+font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.fuentedosis{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  position: absolute;
+  left: 40%;
+  
+}
+
+p {
+
+    width: 350px;
+    height: 100px;
+}
+
+
+.stackarriba{
+
+    background-color: gray;
+    width: 1505px;
+    height: 40px;
+    }
+
+
+.componentes {
+left: 270px;
+top: 55px;
+position: absolute;
+}
+
+
+.logo{
+
+    background-image: url(/img/logo\ pagina.png);
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    margin-left: 50px;  
+}
+
+
+
+.cuenta {
+
+    width: 300px;
+    height: 210px;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+    position: absolute;
+    left: 1050px;
+    top: 68px;
+}
+
+.logogoogle {
+
+    margin-left: 0px;
+}
+
+
+.botongoogle {
+
+    background-color: white;
+    font-family: "Dosis", sans-serif;
+    border-radius: 40px;
+    width: 100px;
+    height: 30px;
+}
+
+.parrafos {
+
+color: white;
+font-family: "Dosis", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-size: 30px;
+width: 1500px;
+height: 200px;
+text-align: center;
+display: flex;
+position: relative;
+top: 60px;
+
+
+}
+
+.contenedor {
+
+    display: flex;
+    border-bottom: 5px solid gray;
+    height: 220px;
+    width: 1505px;
+    
+}
+
+.titulofixxer {
+
+position: absolute;
+left: 50%;
+text-align: center;
+font-style: unset;
+border-radius: 10px;
+top: 3px;
+font-size: 25px;
+width: 88px;
+text-shadow: 2px 1px 0px white;
+background-color: aliceblue;
+}
+
+a{
+    border-right: 1px solid white;
+    padding-right: 90px; 
+    padding-left: 50px;
+    margin-left: 15px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+    border-width: 4px;
+    
+    }
+    
+    a:hover {
+    color:blueviolet;
+    }
+
+
+.contenedorstack{
+
+    width: 200px;
+    display: inline;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+.abajonav {
+    
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    background-color: black; 
+    padding: 10px;
+    letter-spacing: 2px;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+    z-index: 2;
+    }
+
+    
+    .svg {
+
+        display: inline;
+        position: absolute;
+        margin: auto;
+        bottom: 4.5px;
+   }
+
+   
+   .inicio {
+
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-color: gray;
+    width: 40px;
+    border-right: 4px solid white;
+    
+   }
+
+   
+   .inicio:hover {
+
+    background-color: rgb(91, 89, 202);
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    
+   }
+
+
+   .svgcategorias {
+    position: absolute;
+    left: 150px;
+    top: 8px;
+    padding-left: 10px;
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-color: gray;
+   }
+
+
+   .categorias {
+
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    position: absolute;
+    left: 75px;
+    bottom: 1209px;
+
+   }
+
+
+   .bordenav {
+
+    border: 1px solid white;
+    display: inline;
+    margin-right: 25px;
+   }
+
+   
+   .busqueda {
+
+    position: relative;
+    left: 64.5%;
+    bottom: 62px;
+    width:60px ;
+
+   }
+
+
+   .search-container {
+    margin: auto;
+}
+
+
+.search-bar {
+
+    width: 50%;
+    max-width: 400px;
+    height: 5px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: rgb(229, 218, 255);
+    font-size: 14px;
+    color: black;
+    position: relative;
+    left: 36%;
+    bottom: 35px;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+  
+}
+
+.search-bar::placeholder {
+    color: rgb(27, 27, 27);
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+h3{
+
+    margin: auto;
+}
+
+
+.productos {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align:center;
+    font-size: 20px;
+    background-color: aquamarine;
+    width: 450px;
+    height: 35px;
+    top:350px;
+    left: 540px;
+    position: absolute;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+.divcirculo1 {
+
+    width: 25px;
+    height: 25px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    display: inline;
+    position: absolute;
+    right: 456px;
+    bottom: 10px;
+
+}
+
+.divcirculo2 {
+
+    width: 25px;
+    height: 25px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    display: inline;
+    position: absolute;
+    left: 456px;
+    bottom: 11px;
+
+}
+
+.divcirculo3 {
+
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    display: inline;
+    position: absolute;
+    left: 486px;
+    bottom: 20px;
+
+}
+
+.divcirculo4 {
+
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    display: inline;
+    position: absolute;
+    right: 486px;
+    bottom: 20px;
+
+}
+
+
+.productosabajo {
+
+    display: inline-flex;
+    width: 1230px;
+    height: 300px;
+}
+
+.producto1 {
+    
+
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(195, 0, 255);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 1064px;
+    top: 420px;
+    border-radius: 70px;
+    animation-name: animacionproductos;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+
+}
+
+.producto2 {
+
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(195, 0, 255);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 658px;
+    top: 420px;
+    border-radius: 70px;
+    animation-name: animacionproductos;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.producto3 {
+
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(195, 0, 255);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 455px;
+    top: 420px;
+    border-radius: 70px;
+    animation-name: animacionproductos;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+
+}
+
+.producto4 {
+
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(195, 0, 255);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 254px;
+    top: 420px;
+    border-radius: 70px;
+    animation-name: animacionproductos;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    
+}
+
+.producto5 {
+
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(195, 0, 255);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 860px;
+    top: 420px;
+    border-radius: 70px;
+    animation-name: animacionproductos;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    
+}
+
+
+
+.informacion{
+
+width: 1500px;
+height: 400px;
+color: rgb(211, 255, 255);
+}
+
+.info1 {
+
+    width: 150px;
+    height: 55px;
+    color: rgb(127, 209, 235);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 1064px;
+    top: 580px;
+    text-align: center;
+}
+
+.info2 {
+
+    width: 150px;
+    height: 55px;
+    color: rgb(127, 209, 235);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 254px;
+    top: 580px;
+    text-align: center;
+}
+
+.info3 {
+
+    width: 150px;
+    height: 55px;
+    color: rgb(127, 209, 235);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 455px;
+    top: 580px;
+    text-align: center;
+}
+
+.info4 {
+
+    width: 150px;
+    height: 55px;
+    color: rgb(127, 209, 235);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 658px;
+    top: 580px;
+    text-align: center;
+}
+
+.info5 {
+
+    width: 150px;
+    height: 55px;
+    color: rgb(127, 209, 235);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 860px;
+    top: 580px;
+    text-align: center;
+}
+
+
+.ObtenerAqui {
+
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:oblique;
+    text-align:center;
+    font-size: 15px;
+    background-color: rgb(8, 88, 236);
+    width: 150px;
+    height: 40px;
+    left: 290px;
+    bottom: 960px;
+    position: absolute;
+    border-radius: 80px;
+    color: white;
+}
+
+
+.flink {
+
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-color: rgb(226, 217, 217);
+
+}
+
+
+
+.wlink {
+
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-color: rgb(226, 217, 217);
+
+}
+
+
+.tlink {
+
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-color: rgb(226, 217, 217);
+
+}
+
+
+.ilink {
+
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-color: rgb(226, 217, 217);
+
+}
+
+.facebook {
+
+    width: 70px;
+    height: 50px;
+    background-color: rgb(226, 217, 217);
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 1435px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+
+.divf {
+
+    position: absolute;
+    left: 1448px;
+    top: 78px;
+    
+}
+
+.WhatsaApp {
+
+    width: 70px;
+    height: 50px;
+    background-color: rgb(226, 217, 217);;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 1435px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.divw {
+
+   position: absolute;
+   left: 1450px;
+   top: 137px;
+}
+
+.Twitter {
+
+    width: 70px;
+    height: 50px;
+    background-color: rgb(226, 217, 217);
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 1435px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.divt {
+
+    position: absolute;
+    left: 1450px;
+    top: 198px;
+}
+
+.Instagram {
+
+    width: 70px;
+    height: 50px;
+    background-color: rgb(226, 217, 217);;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 1435px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.divi {
+
+    position: absolute;
+    left: 1445px;
+    top: 253px;    
+
+}
+
+.btninfo1{
+font-family: "Dosis", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style:normal;
+text-align:center;
+font-size: 15px;
+background-color: rgb(1, 103, 255);
+width: 80px;
+height: 30px;
+left: 48px;
+top: 342px;
+position: absolute;
+border-radius: 80px;
+color: black;
+}
+
+
+.btninfo2{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+    text-align:center;
+    font-size: 15px;
+    background-color: rgb(1, 103, 255);
+    width: 80px;
+    height: 30px;
+    left: 48px;
+    top: 342px;
+    position: absolute;
+    border-radius: 80px;
+    color: black;
+    }
+
+.btninfo3{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+    text-align:center;
+    font-size: 15px;
+    background-color: rgb(1, 103, 255);
+    width: 80px;
+    height: 30px;
+    left: 48px;
+    top: 342px;
+    position: absolute;
+    border-radius: 80px;
+    color: black;
+        }
+
+    .btninfo4{
+font-family: "Dosis", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style:normal;
+text-align:center;
+font-size: 15px;
+background-color: rgb(1, 103, 255);
+width: 80px;
+height: 30px;
+left: 48px;
+top: 342px;
+position: absolute;
+border-radius: 80px;
+color: black;
+}
+
+.btninfo5{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+    text-align:center;
+    font-size: 15px;
+    background-color: rgb(1, 103, 255);
+    width: 80px;
+    height: 30px;
+    left: 48px;
+    top: 342px;
+    position: absolute;
+    border-radius: 80px;
+    color: black;
+    }
+
+
+
+    footer {
+
+    width: 1500px;
+    height: 230px;
+    background-color: rgb(31, 30, 30);
+    bottom: 0%;
+    margin-top:100px ;
+
+    }
+
+    
+    .bordefooter {
+
+        border-top: 3px solid gray;
+
+    }
+    .logofooter{
+
+        position: absolute;
+        left: 0px;
+        bottom: 90px;
+        margin-left: 30px;
+        background-color: aliceblue;
+        border-radius: 20px;
+    }
+
+    .svgf {
+
+        background-color: rgb(88, 88, 88);
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 730px;
+        top: 1095px;
+    }
+
+    .svgf:hover {
+
+        background-color: rgb(11, 107, 190);
+    }
+
+    .svgw {
+
+        background-color: rgb(88, 88, 88);
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 679px;
+        top: 1095px;
+    }
+
+    .svgw:hover {
+
+        background-color: rgb(24, 204, 18);
+    }
+
+    .svgx {
+
+        background-color: rgb(88, 88, 88);
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 780px;
+        top: 1095px;
+    }
+
+    .svgx:hover {
+
+        background-color: rgb(0, 0, 0);
+    }
+
+    .svgi {
+
+        background-color: rgb(88, 88, 88);
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 830px;
+        top: 1095px;
+    }
+
+    .svgi:hover {
+
+        background-color: rgb(252, 59, 0);
+        
+    }
+
+    
+    .asesfooter1 {
+
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        font-size: 12px;
+        padding-right: 90px; 
+        padding-left: 50px;
+        margin-left: 15px;
+        margin-right: 25px;
+        color: white;
+        border-width: 4px;
+        position: absolute;
+        left: 677px;
+        bottom:60px ;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .asesfooter1:hover{
+
+        color: rgb(160, 190, 255);
+    }
+
+    
+    .asesfooter2 {
+
+        border-left: 1px solid white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px; 
+        margin-left: 15px;
+        margin-right: 25px;
+        color: white;
+        bottom:60px ;
+        left: 840px;
+        border-width: 4px;
+        position: absolute;
+        
+    }
+
+    .asesfooter2:hover{
+
+        color: rgb(160, 190, 255);
+    }
+
+    .asesfooter3 {
+
+        border-left: 1px solid white;
+        padding-left: 20px;
+        padding-right: 20px; 
+        font-size: 12px;
+        margin-left: 15px;
+        margin-right: 25px;
+        color: white;
+        bottom:60px ;
+        left: 534px;
+        border-width: 4px;
+        position: absolute;
+        
+    }
+
+    .asesfooter3:hover{
+
+        color: rgb(160, 190, 255);
+    }
+    
+    .info1hover{
+
+        height: 292px;
+        width: 180px;
+        transition: all 0.3s ease;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        color: rgb(195, 0, 255);
+        border: 2px solid white;
+        border-radius: 15px;
+        background-color: black;
+        margin-left: 20px;
+    
+    }
+
+
+
+    .info2hover{
+
+        height: 292px;
+        width: 180px;
+        transition: all 0.3s ease; 
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+        color: rgb(195, 0, 255);
+        border: 2px solid white;
+        border-radius: 15px;
+    
+    }
+
+    .info2hover p {
+
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .info3hover{
+
+        height: 292px;
+        width: 180px;
+        transition: all 0.3s ease;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+        color: rgb(195, 0, 255);
+        border: 2px solid white;
+        border-radius: 15px;
+    
+    }
+
+    .info4hover{
+
+        height: 292px;
+        width: 180px;
+        transition: all 0.3s ease; 
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+        color: rgb(195, 0, 255);
+        border: 2px solid white;
+        border-radius: 15px;
+    
+    }
+
+
+    .info5hover{
+
+        height: 292px;
+        width: 180px;
+        transition: all 0.3s ease;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        color: rgb(195, 0, 255);
+        border: 2px solid white;
+        border-radius: 15px;
+    
+    }
